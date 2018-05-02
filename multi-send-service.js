@@ -24,7 +24,7 @@
 
 
 const Web3 = require('web3')
-const provider = `wss://rinkeby.infura.io/_ws`
+const provider = `wss://rinkeby.giveth.io:8546`
 let web3 = new Web3(new Web3.providers.WebsocketProvider(provider))
 
  
